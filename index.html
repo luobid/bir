@@ -103,6 +103,16 @@
         }
     </style>
     <script type="text/javascript">
+
+function play() {
+    var audio = document.getElementById('music');
+
+        audio.play();
+        
+
+}
+</script>
+    <script type="text/javascript">
         (function (A, w) {
             function ma() {
                 if (!c.isReady) {
@@ -3345,9 +3355,7 @@
 </head>
 <body>
 <!--ѳް-->
-    <audio id="player" autoplay loop>
-    <source src="https://sharefs.ali.kugou.com/202201122022/231d42ab29cce3db640e836728adc521/G098/M09/0A/07/QpQEAFvImYeAew_SAD4I_XY6AhU339.mp3" type="audio/mp3">
-</audio>
+    <audio id="music" src="https://sharefs.ali.kugou.com/202201131020/aedbbcfc72e775acf79e47fb7e306ac7/KGTX/CLTX001/fbc27dd4530a9cfb4020773e3e424f32.mp3" loop autoplay></audio>
 <canvas id="sakura" style=" position: absolute ;z-index: 1"></canvas>
 <div style="position: absolute ;z-index: 9999" id="mainDiv">
     <div id="content">
